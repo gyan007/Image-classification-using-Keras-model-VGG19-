@@ -1,7 +1,7 @@
 # Image-classification-using-Keras-model-VGG19
 
 ## Screenshot
-![Image Classifier Screenshot](images/screenshot.png)
+![Image Classifier Screenshot](images/Screenshot1.png)
 
 ## Overview
 
