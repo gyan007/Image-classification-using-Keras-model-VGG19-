@@ -52,21 +52,15 @@ Make sure you have the following installed:
    cd image-classifier
    ```
 
-3. Install the required dependencies:
+3. Download the pre-trained model (`vgg19.h5`) or train it using the provided script `model.ipynb` and save it as `vgg19.h5`.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Download the pre-trained model (`vgg19.h5`) or train it using the provided script `model.ipynb` and save it as `vgg19.h5`.
-
-5. Run the Flask application:
+4. Run the Flask application:
 
    ```bash
    python app.py
    ```
 
-6. The application will run locally at `http://127.0.0.1:5000/`. Open this URL in your browser.
+5. The application will run locally at `http://127.0.0.1:5000/`. Open this URL in your browser.
 
 ## Usage
 
@@ -103,12 +97,6 @@ The project requires the following Python packages:
 * Keras
 * werkzeug
 * gevent
-
-You can install the dependencies by running:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Contributing
 
