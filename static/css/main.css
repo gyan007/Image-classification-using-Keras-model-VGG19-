@@ -1,0 +1,103 @@
+/* Centering the form */
+#upload-file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Centering the image preview */
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin: 1em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling the image inside preview */
+.img-preview > div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Hiding the file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Styling the upload label */
+.upload-label {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #39D2B4;
+    color: #fff;
+    font-size: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.upload-label:hover {
+    background: #34495E;
+    color: #39D2B4;
+}
+
+/* Centering the Predict! button */
+#btn-predict {
+    display: block;
+    margin: 1em auto;
+    padding: 12px 30px;
+    background: #3498db;
+    color: #fff;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#btn-predict:hover {
+    background: #2980b9;
+}
+
+/* Loader styling */
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 1em auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Centering the predicted answer */
+#result {
+    text-align: center;
+    margin: 1em auto;
+    font-size: 1.2em;
+    color: #34495E;
+}
+
+#result span {
+    display: inline-block;
+    padding: 10px;
+    background: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
