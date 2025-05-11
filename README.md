@@ -81,15 +81,17 @@ Make sure you have the following installed:
 image-classifier/
 │
 ├── app.py                # Main Flask application file
-├── model.ipynb           # Jupyter notebook for training and saving the model
+├── untitled.ipynb           # Jupyter notebook for training and saving the model
 ├── vgg19.h5              # Pre-trained VGG19 model file
 ├── static/               # Folder for static assets (images, stylesheets, etc.)
 │   └── css/              # Custom styles
 │       └── style.css
+│   └── js/              # Custom styles
+│       └── main.js
 ├── templates/            # Folder for HTML templates
 │   └── index.html        # Main template for the app
+│   └── base.html         # Main template for the app
 ├── uploads/              # Folder to store uploaded images
-└── requirements.txt      # List of Python dependencies
 ```
 
 ## Dependencies
