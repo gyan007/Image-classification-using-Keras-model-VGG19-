@@ -1,0 +1,8 @@
+Flask
+tensorflow
+gevent
+requests
+Werkzeug
+numpy
+Pillow
+gunicorn
